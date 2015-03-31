@@ -51,8 +51,17 @@ h1{
 	letter-spacing: -2px;
 	margin-bottom: 30px;
 	text-align: center;
-	color: #eee;
+	
 
+}
+
+.jumbotron{
+	margin-top: 30px;
+
+}
+
+.jumbotron h1 {
+	color: #2c3e50;
 }
 h2 {
 	font-size: 1.2em;
@@ -60,6 +69,10 @@ h2 {
 	margin-bottom: 30px;
 	text-align: center;
 	color:#777;
+}
+
+h3{
+	color: #2c3e50;
 }
 
 .left {
