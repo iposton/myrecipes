@@ -24,7 +24,7 @@ body {
 
 #logo:hover{
 	background-color: #1abc9c;
-	border: 1px solid #2c3e50;
+	border: 1px solid #1abc9c;
 	color: white;
 }
 
@@ -96,7 +96,7 @@ h3{
 
 .border-blue:hover {
 	background-color: #1abc9c;
-	border: 1px solid #2c3e50;
+	border: 1px solid #1abc9c;
 	color: white;
 
 }
@@ -108,7 +108,7 @@ h3{
 }
 .border-blue-join:hover {
 	background-color: #1abc9c;
-	border: 1px solid #bdc3c7;
+	border: 1px solid #1abc9c;
 	color: white;
 
 }
@@ -128,7 +128,7 @@ h3{
 
 .border-blue-browse:hover {
 	background-color: #1abc9c;
-	border: 1px solid white;
+	border: 1px solid #1abc9c;
 	color: white;
 
 }
@@ -157,6 +157,18 @@ input, textarea, select, .uneditable-input {
 
 input{
 	height: auto !important;
+}
+
+span.picture {
+margin-top: 10px;
+input{
+	border:0;
+ }
+}
+
+.show_recipe {
+
+	margin: 10px 10px 10px 10px;
 }
 
 
