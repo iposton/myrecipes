@@ -1,13 +1,15 @@
 <%= render 'shared/page_title', title: @recipe.name %>
 <div class="row">
 	<div class="col-md-4 pull-right center" >
-		<%= gravatar_for @recipe.chef, size: 200 %>
+		<%= link_to gravatar_for(@recipe.chef, size: 200), chef_path(@recipe.chef) %>
 		<p>
 			<h5>Brought to you by: <%= @recipe.chef.chefname %></h5>
 		</p>
 	</div>
 	<div class="col-md-8">
+		<% if logged_in? and @recipe.chef == current_user %>
 		<%= link_to "Edit This Recipe", edit_recipe_path(@recipe), class: "btn border-blue-browse pull-right" %>
+		<% end %>
 		<h3><%= @recipe.summary %></h3>
 		<div class="show_recipe">
 			<%= image_tag(@recipe.picture.url, class: "gravatar") if @recipe.picture? %>
