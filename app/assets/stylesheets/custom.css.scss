@@ -1,6 +1,9 @@
 $navbar-default-bg: #2c3e50;
 $light-orange: #ff8c00;
 $navbar-default-color: $light-orange;
+$link-color: #2c3e50;
+$pagination-active-bg: #2c3e50;
+$pagination-active-border: #2c3e50;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -9,13 +12,24 @@ body {
 	padding-top: 80px;
 }
 
+a{
+	 -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+}
+a:hover{
+	color: #cd1d1f;
+  text-decoration: none;
+}
+
 #logo {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	float: left;
 	margin-right: 10px;
 	font-size: 2em;
-	color: #1abc9c;
+	color: #777;
 	text-transform: uppercase;
 	letter-spacing: -1px;
 	padding-top: 9px;
@@ -23,9 +37,9 @@ body {
 }
 
 #logo:hover{
-	background-color: #1abc9c;
+	background-color: white;
 	border: 1px solid #1abc9c;
-	color: white;
+	color: #1abc9c;
 }
 
 .nav_item {
@@ -96,6 +110,12 @@ h3{
 	background-color: white;
 	border: 1px solid #1abc9c;
 	color: #1abc9c;
+	 -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+
+
 
 }
 
@@ -108,47 +128,63 @@ h3{
 
 .border-danger {
 	background-color: white;
-	border: 1px solid #e74c3c;
-	color: #e74c3c;
+	border: 1px solid #777;
+	color: #777;
+	 -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
 
 }
 
 .border-danger:hover {
-	background-color: #e74c3c;
+	background-color: white;
 	border: 1px solid #e74c3c;
-	color: white;
+	color: #e74c3c;
 
 }
 .border-blue-join {
 	background-color: white;
-	border: 1px solid #1abc9c;
-	color: #1abc9c;
+	border: 1px solid #777;
+	color: #777;
+	 -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
 
 }
 .border-blue-join:hover {
-	background-color: #1abc9c;
+	background-color: white;
 	border: 1px solid #1abc9c;
-	color: white;
+	color: #1abc9c;
 
 }
 
 .boder-blue-logo {
 
 	background-color: white;
-	border: 1px solid #1abc9c;
+	border: 1px solid #777;
+	 -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
 	
 }
 .border-blue-browse {
 	background-color: white;
-	border: 1px solid #1abc9c;
-	color: #1abc9c;
+	border: 1px solid #777;
+	color: #777;
+	 -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
 
 }
 
 .border-blue-browse:hover {
-	background-color: #1abc9c;
+	background-color: white;
 	border: 1px solid #1abc9c;
-	color: white;
+	color: #1abc9c;
 
 }
 
