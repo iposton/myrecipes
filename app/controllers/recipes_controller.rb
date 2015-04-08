@@ -8,9 +8,7 @@ class RecipesController < ApplicationController
 		@recipes = Recipe.paginate(page: params[:page], per_page: 4)
 	end
 
-	def show
-		@review = Review.new
-	end
+	
 
 	def new
 		@recipe = Recipe.new
@@ -31,6 +29,9 @@ class RecipesController < ApplicationController
 
 	def edit
 	
+	end
+	def show
+		@review = Review.new
 	end
 
 	def update

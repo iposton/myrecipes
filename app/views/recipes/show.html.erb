@@ -39,6 +39,7 @@
 		</div>
 	</div>
 </div>
+<% if logged_in? %>
 <div class="row">
 	<div class="col-md-8">
 		<%= render 'shared/page_title', title: "Review This Recipe" %>
@@ -53,6 +54,9 @@
 			
 	</div>
 </div>
+<% else %>
+<p><%= link_to "Want to leave a review? Go Sign up!", register_path %></p>
+<% end %>
 <div class="row">
 	<div class="col-md-8">
 		<h2>Reviews</h2>

@@ -1,24 +1,23 @@
+
 <div class="row">
 	<div class="well">
+		<div class="col-md-4 pull-left center" >
+			<%= link_to gravatar_for(review.chef, size: 75), chef_path(review.chef) %>
+	  </div>
 <p>
-  <strong><%= review.chef %></strong> says: <%= review.body %>
+  <strong><%= review.chef.chefname %></strong> says: <%= review.body %>
 </p>
-<p>
-		<% if logged_in? and current_user.admin? %>
-	  <%= link_to '[Destroy Review]', [review.recipe, review],
-               method: :delete,
-               data: { confirm: 'Are you sure you want to delete this review?' } %>
-               <% end %>
-</p>
+
 	<p>
 			<span class="quiet"><small> created: <%= time_ago_in_words(review.created_at) %> ago,</small></span>
 			<span class="quiet"><small> updated: <%= time_ago_in_words(review.updated_at) %> ago</small></span>
 		</p>
 <% if logged_in? and(review.chef == current_user || current_user.admin?) %>
-<td><%= link_to 'Edit', ""%></td>
-      <td><%= link_to 'Destroy', "",
-              method: :delete,
-              data: { confirm: 'Are you sure?' } %></td>
- <% end %>
+<td><%= link_to 'Edit', edit_recipe_review_path(@recipe, review), class: "btn btn-small btn-info"%></td>
+      <td><%= link_to 'Delete', [@recipe, review], method: :delete, class: "btn btn-small btn-danger", data: { confirm: 'Are you sure you want to delete this reiew?' } %></td>
+ <% end %> &nbsp&nbsp&nbsp&nbsp
+ 
+		
+
 	</div>
 </div>
