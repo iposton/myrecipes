@@ -7,7 +7,9 @@ get '/home', to: 'pages#home'
 resources :recipes do
 	member do
 		post 'like'
+
 	end
+	resources :reviews
 end
 
 resources :chefs, except: [:new, :destroy]
