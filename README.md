@@ -1,5 +1,6 @@
-# MyRecipes Ruby on Rails App with Testing [![Code Climate](https://codeclimate.com/github/iposton/myrecipes/badges/gpa.svg)](https://codeclimate.com/github/iposton/myrecipes)
+# MyRecipes Ruby on Rails App with Testing 
 [![Circle CI](https://circleci.com/gh/iposton/myrecipes/tree/master.svg?style=svg)](https://circleci.com/gh/iposton/myrecipes/tree/master)
+[![Code Climate](https://codeclimate.com/github/iposton/myrecipes/badges/gpa.svg)](https://codeclimate.com/github/iposton/myrecipes)
 
 <h3>Get in the Kitchen and make something good with <a href="https://myrecipes-ruby.herokuapp.com/">‘COOKIN’</a></h3>
 
