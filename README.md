@@ -7,7 +7,7 @@ Life’s busy. Who can remember want to cook for dinner. Cookin has many simple 
 
 <h3>Software used in Cookin</h3>
 
-Bring It Back runs on these technologies:
+Cookin runs on these technologies:
 
 <ul>
   <li>Rails 4.1.7</li>
@@ -90,6 +90,6 @@ run: <code>rake test</code>
   
 ###Thanks for checking out COOKIN!
 
-Feel free to ask questions or send pull requests. Or Go to <a href="https://myrecipes-ruby.herokuapp.com/">Cookin</a> and set up a profile and add some new movies!  Donations can be made in hot-sauce packets. Thank you!
+Feel free to ask questions or send pull requests. Or Go to <a href="https://myrecipes-ruby.herokuapp.com/">Cookin</a> and set up a profile and add some new recipes! Donations can be made in hot-sauce packets. Thank you!
 
 Want to make your own recipe app go to <a href="https://www.udemy.com/pro-rubyonrails/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email">The Professional Ruby on Rails Developer Course</a> by Mashrur Hossain on Udemy.
