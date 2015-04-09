@@ -21,7 +21,7 @@ Cookin runs on these technologies:
   <li>Code Climate</li>
 </ul>
 
-<h3>Ruby Gems Installed in Cookink</h3>
+<h3>Ruby Gems Installed in Cookin</h3>
 
 Cookin uses the following Gems:
 
