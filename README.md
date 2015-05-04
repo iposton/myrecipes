@@ -77,7 +77,7 @@ In order to run the test suite, in development you'll need to rake the migration
   <li>run <code>git init</code></li>
   <li>run <code>heroku login</code> (enter username and password) </li>
   <li>run <code>heroku create</code> (name-your-app) </li>
-  <li>run <code>git add -A</code> then run <code>git commit -m "changes"</li>
+  <li>run <code>git add -A</code> then run <code>git commit -m "changes"</code></li>
   <li>run <code>git push heroku master</code> </li>
   <li>run <code>heroku run rake db:migrate</code></li>
   <li>See it live <a href="https://myrecipes-ruby.herokuapp.com/">Cookin</a> on Heroku!</li>
